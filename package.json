@@ -1,0 +1,14 @@
+{
+  "name": "xml-to-redis-export",
+  "version": "1.0.0",
+  "description": "Exports subdomains and cookie values from an XML config file to Redis",
+  "main": "src/exporter.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "redis": "^4.7.0"
+  }
+}
